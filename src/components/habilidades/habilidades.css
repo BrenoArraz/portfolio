@@ -1,0 +1,65 @@
+.boxHabilidades{
+  display: flex;
+  justify-content: space-around;
+}
+
+.habilidades{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+.h2Habilidades{
+  font-size: 3rem;
+}
+
+.itens{
+  margin-top: 30px;
+}
+
+.itens ul{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+
+.itens ul li{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+
+.itens ul li img{
+  width: 100%;
+}
+
+.itens ul li p{
+  font-size: 1.5rem;
+}
+
+.habilidades li{
+  box-shadow: 4px 4px 4px #5984b6;
+}
+
+.textHabilidades{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 4px 4px 4px #131212;
+}
+
+.textHabilidades h2{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+.textHabilidades p{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+}

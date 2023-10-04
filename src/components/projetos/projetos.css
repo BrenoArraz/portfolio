@@ -1,0 +1,42 @@
+.boxProjetos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.boxProjetos h1{
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.projetos{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.projeto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  height: 200px;
+  background-color: rgb(29, 3, 46);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px #052a08;
+}
+
+.projeto h3{
+  font-size: 2rem;
+}
+
+.projeto p{
+  padding-top: 80px;
+  font-size: 2rem;
+  background-position: center;
+}

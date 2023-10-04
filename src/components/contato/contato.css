@@ -1,0 +1,28 @@
+.contato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.contato h1{
+font-size: 4rem;
+
+}
+
+.boxContato{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 80px;
+  margin-top: 80px;
+}
+
+.contatos{
+  text-align: center;
+  color: white;
+}
+
+.contatos h3, p{
+  color: rgb(39, 39, 39);
+}
