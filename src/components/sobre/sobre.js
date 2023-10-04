@@ -1,7 +1,7 @@
 import React from 'react'
 import euImg from '../images/euImg.png'
 import { BoxImgEu, DivDownloadCV, DownloadCV, ImgEu, SobreH2, SobreP, SobreText, SobreTextSpan, Sobree } from './styled-sobre'
-import CV from '../../assets/Curriculo-breno-arraz-dev.pdf'
+import CV from '../../Curriculo-breno-arraz-dev.pdf'
 
 export const Sobre = () => {
   return (
