@@ -46,6 +46,10 @@ export const UlItens = styled.ul`
 display: grid;
 grid-template-columns: repeat(5, 1fr);
 grid-gap: 30px;
+
+@media (max-width: 500px){
+  grid-template-columns: repeat(4, 1fr);
+}
 `
 
 export const LiItens = styled.li`
@@ -75,6 +79,10 @@ flex-direction: column;
 align-items: center;
 box-shadow: 4px 4px 4px #131212;
 margin-top: 30px;
+
+@media (max-width: 500px){
+  width: 95vw;
+}
 `
 
 export const H2TextHabilidades = styled.h2`
