@@ -10,8 +10,6 @@ export const Header = () => {
       <H1Header><Bold>Breno Arraz</Bold></H1Header>
 
       <nav>
-
-        {/* Clicar fora pra sair do hamburguer, clicar uma opção fechar o hamburguer */}
       <input type="checkbox" id="menu-hamburguer" />
           <LabelHeader for="menu-hamburguer">
             <Menu>

@@ -73,8 +73,10 @@ margin-top: 15px;
 `
 
 export const LabelHeader = styled.label`
-display: flex;
+  display: flex;
   flex-direction: column;
+
+  
 `
 
 export const Hamburguer = styled.span`
@@ -103,5 +105,9 @@ transition: 0.5s ease-in-out;
 
 &:after{
   bottom: -10px;
+}
+
+@media (max-width: 576px){
+    left: 50px;
 }
 `

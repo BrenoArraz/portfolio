@@ -45,7 +45,7 @@ export const Projetos = () => {
         <a href='https://github.com/BrenoArraz/pokedex' target="_blank" >
           <GithubProjetos alt='Visit repository'/>
         </a>
-        <a href="https://6517cf3dfe7ae2782ef133fb--wondrous-starlight-10f678.netlify.app" target="_blank">
+        <a href="https://pokedex-ba.vercel.app" target="_blank">
           <Visit />
           </a>
         </ContatosProjeto>

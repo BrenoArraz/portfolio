@@ -9,6 +9,14 @@ color: white;
 @media (max-width: 576px){
   margin-bottom: 20px;
 }
+
+@media (max-width: 470px){
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 `
 
 export const DivDownloadCV = styled.div`
@@ -45,6 +53,13 @@ text-align: justify;
 
 @media (max-width: 576px){
   margin-right: 15px;
+}
+
+@media (max-width: 470px){
+  flex-direction: column;
+  align-items: center;
+ width: 95vw;
+ 
 }
 `
 
