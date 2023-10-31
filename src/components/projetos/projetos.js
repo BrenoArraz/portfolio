@@ -42,10 +42,10 @@ export const Projetos = () => {
           </InfoProjects>
       </PokedexImg>
       <ContatosProjeto>
-        <a href='https://github.com/BrenoArraz/pokedex' target="_blank" >
+        <a title="Visite o repositorio" href='https://github.com/BrenoArraz/pokedex' target="_blank" >
           <GithubProjetos alt='Visit repository'/>
         </a>
-        <a href="https://pokedex-ba.vercel.app" target="_blank">
+        <a title="Visite o site" href="https://pokedex-ba.vercel.app" target="_blank">
           <Visit />
           </a>
         </ContatosProjeto>
@@ -72,10 +72,10 @@ export const Projetos = () => {
           </InfoProjects>
       </UserGithubImg>
       <ContatosProjeto>
-        <a href='https://github.com/BrenoArraz/user-github' target="_blank" >
+        <a title="Visite o repositorio" href='https://github.com/BrenoArraz/user-github' target="_blank" >
           <GithubProjetos alt='Visit repository'/>
         </a>
-        <a href="https://brenoarraz.github.io/user-github/" target="_blank">
+        <a title="Visite o site" href="https://brenoarraz.github.io/user-github/" target="_blank">
           <Visit />
           </a>
         </ContatosProjeto>

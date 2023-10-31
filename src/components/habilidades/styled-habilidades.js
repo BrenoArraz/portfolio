@@ -10,7 +10,7 @@ export const BoxHabilidades = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    // margin-left: 60px;
+    max-width: 95vw;
   }
 `
 
@@ -48,7 +48,8 @@ grid-template-columns: repeat(5, 1fr);
 grid-gap: 30px;
 
 @media (max-width: 500px){
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 `
 
@@ -81,7 +82,7 @@ box-shadow: 4px 4px 4px #131212;
 margin-top: 30px;
 
 @media (max-width: 500px){
-  width: 95vw;
+  width: 95%;
 }
 `
 

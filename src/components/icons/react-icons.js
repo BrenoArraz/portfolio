@@ -10,6 +10,10 @@ border-radius: 5px;
 @media (max-width: 576px){
   font-size: 7rem;
 }
+
+@media (max-width: 465px){
+  font-size: 5rem;
+}
 `
 
 export const Css3 = styled(SiCss3)`
@@ -19,6 +23,10 @@ border-radius: 5px;
 
 @media (max-width: 576px){
   font-size: 7rem;
+}
+
+@media (max-width: 465px){
+  font-size: 5rem;
 }
 `
 
@@ -30,6 +38,10 @@ border-radius: 5px;
 @media (max-width: 576px){
   font-size: 7rem;
 }
+
+@media (max-width: 465px){
+  font-size: 5rem;
+}
 `
 
 export const Reac = styled(SiReact)`
@@ -39,6 +51,10 @@ border-radius: 5px;
 
 @media (max-width: 576px){
   font-size: 7rem;
+}
+
+@media (max-width: 465px){
+  font-size: 5rem;
 }
 `
 
@@ -50,6 +66,10 @@ border-radius: 5px;
 @media (max-width: 576px){
   font-size: 7rem;
 }
+
+@media (max-width: 465px){
+  font-size: 5rem;
+}
 `
 
 export const Typescript = styled(SiTypescript)`
@@ -59,6 +79,10 @@ border-radius: 5px;
 
 @media (max-width: 576px){
   font-size: 7rem;
+}
+
+@media (max-width: 465px){
+  font-size: 5rem;
 }
 `
 
@@ -71,6 +95,10 @@ border-radius: 5px;
 @media (max-width: 576px){
   font-size: 7rem;
 }
+
+@media (max-width: 465px){
+  font-size: 5rem;
+}
 `
 
 
@@ -82,6 +110,10 @@ border-radius: 5px;
 @media (max-width: 576px){
   font-size: 7rem;
 }
+
+@media (max-width: 465px){
+  font-size: 5rem;
+}
 `
 
 export const Mysql = styled(SiMysql)`
@@ -92,6 +124,10 @@ border-radius: 5px;
 @media (max-width: 576px){
   font-size: 7rem;
 }
+
+@media (max-width: 465px){
+  font-size: 5rem;
+}
 `
 
 export const Jest = styled(SiJest)`
@@ -101,6 +137,10 @@ border-radius: 5px;
 
 @media (max-width: 576px){
   font-size: 7rem;
+}
+
+@media (max-width: 465px){
+  font-size: 5rem;
 }
 `
 
